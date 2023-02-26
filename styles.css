@@ -1,0 +1,86 @@
+
+body {
+    background-image: url(background\ image\ mount.png);
+    height: 100vh;
+    background-size: cover;
+    /* radial-gradient(ellipse at top, #BACC81, #478C5C); */
+}
+
+#logo {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    margin-top: -1%;
+}
+
+nav {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    gap: 6px;
+}
+
+button {
+    width: 4.5rem;
+    height: 4rem;
+    padding: 1rem;
+}
+
+hr {
+    margin-top: -5%;
+    height: 3px;
+}
+
+.search {
+    padding: 20px;
+}
+
+.searchBar {
+    padding: 5px;
+    height: 1vw;
+    width: 60vw;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    text-align: justify;
+    color: white;
+}
+
+.category {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 36vw;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    color: white;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    background-color: white;
+    opacity: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20%;
+}
+
+.credits {
+    color: rgb(0, 0, 0);
+}
